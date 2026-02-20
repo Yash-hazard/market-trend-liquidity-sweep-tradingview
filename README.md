@@ -10,10 +10,9 @@ A powerful, all-in-one TradingView indicator combining **Market Trend Detection*
 ---
 
 ## 🖼️ Preview
+<img width="1920" height="927" alt="indicator" src="https://github.com/user-attachments/assets/ade7685f-3802-450d-9128-8515dc3df67d" />
 
-> Add your chart screenshot here after publishing
-> `<img width="1920" height="923" alt="image" src="https://github.com/user-attachments/assets/22fe22bb-f758-4951-ba64-06b0dcd3f80b" />
-`
+> 
 
 ---
 
