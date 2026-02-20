@@ -12,7 +12,8 @@ A powerful, all-in-one TradingView indicator combining **Market Trend Detection*
 ## 🖼️ Preview
 
 > Add your chart screenshot here after publishing
-> `![Indicator Preview](screenshot.png)`
+> `<img width="1920" height="923" alt="image" src="https://github.com/user-attachments/assets/22fe22bb-f758-4951-ba64-06b0dcd3f80b" />
+`
 
 ---
 
