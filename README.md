@@ -1,4 +1,4 @@
-# 📊 Market Trend Detector + Liquidity Sweep — TradingView Pine Script
+# 📊 Market Trend Detector TradingView Pine Script
 
 ![Pine Script](https://img.shields.io/badge/Pine%20Script-v5-blue)
 ![TradingView](https://img.shields.io/badge/Platform-TradingView-brightgreen)
@@ -29,16 +29,6 @@ A powerful, all-in-one TradingView indicator combining **Market Trend Detection*
 - **Adjustable Table Size** — Tiny / Small / Normal / Large / Huge
 - **Adjustable Table Position** — Top Right / Left / Bottom Right / Left
 - **Built-in Alerts** — for trend flips and strong trend confirmations
-
-### 💧 Liquidity Sweep Detector
-- **Buyside Liquidity Sweeps (BSL)** — detects wicks above swing highs that close back below
-- **Sellside Liquidity Sweeps (SSL)** — detects wicks below swing lows that close back above
-- **Swing High/Low Dots** — marks all significant pivot levels
-- **Sweep Level Lines** — dashed lines extending from swept levels
-- **Wick Boxes** — highlights the exact swept wick area
-- **BSL / SSL Labels** — clearly marks every sweep on the chart
-- **Background Highlight** — colors the sweep candle background
-- **Built-in Alerts** — for both buyside and sellside sweeps
 
 ---
 
@@ -74,19 +64,6 @@ A powerful, all-in-one TradingView indicator combining **Market Trend Detection*
 | Table Position | Top Right | Move table to any corner |
 | Table Text Size | Normal | Tiny / Small / Normal / Large / Huge |
 
-### Liquidity Sweep Detector
-
-| Setting | Default | Description |
-|---|---|---|
-| Swing Length | 10 | Bars left/right to confirm a pivot |
-| Show Buyside Sweeps | On | Toggle BSL sweep detection |
-| Show Sellside Sweeps | On | Toggle SSL sweep detection |
-| Show Sweep Lines | On | Toggle dashed level lines |
-| Extend Lines (bars) | 20 | How far lines extend forward |
-| Show Sweep Wick Box | On | Toggle wick highlight boxes |
-| Buyside Color | Cyan | Color for BSL sweeps |
-| Sellside Color | Red | Color for SSL sweeps |
-
 ---
 
 ## 📖 How To Use
@@ -112,15 +89,6 @@ The table scores **4 signals** in real time:
 
 ---
 
-### Reading Liquidity Sweeps
-
-| Label | Meaning | What Smart Money Did |
-|---|---|---|
-| 🔵 BSL Sweep | Wick above swing high, closed below | Sold into buy stops above highs |
-| 🔴 SSL Sweep | Wick below swing low, closed above | Bought into sell stops below lows |
-
----
-
 ### ✅ Trading Checklist
 ```
 Step 1 → Check the Trend Table
@@ -132,19 +100,15 @@ Step 2 → Check price vs EMA 200 (purple line)
          Above = Bull market territory
          Below = Bear market territory
 
-Step 3 → Wait for a Liquidity Sweep
-         SSL Sweep in an uptrend = Smart money bought = BUY opportunity
-         BSL Sweep in a downtrend = Smart money sold = SHORT opportunity
-
-Step 4 → Wait for BUY or SELL marker (Supertrend flip)
+Step 3 → Wait for BUY or SELL marker (Supertrend flip)
          Confirms momentum changed after the sweep
 
-Step 5 → Enter the trade
+Step 4 → Enter the trade
          Entry  : Pullback to EMA 20 or Supertrend line
          Stop   : Below the Supertrend line or swing low
          Target : Previous swing high/low or 1:2 Risk/Reward
 
-Step 6 → Exit when table flips direction
+Step 5 → Exit when table flips direction
          or a SELL marker appears (for longs)
 ```
 
@@ -157,10 +121,6 @@ Step 6 → Exit when table flips direction
 - Drop to **15M or 5M** for entries after a liquidity sweep
 - If both timeframes agree → highest probability setup
 
-**Combining Both Indicators**
-- Trend Detector tells you **which direction** to trade
-- Liquidity Sweep tells you **when to enter**
-- A sweep followed by a supertrend flip = strongest signal
 
 **Avoid These Mistakes**
 - ❌ Never trade against a 4/4 trend signal
